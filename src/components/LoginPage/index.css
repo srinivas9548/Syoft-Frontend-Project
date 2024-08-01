@@ -1,0 +1,89 @@
+.login-page-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+
+.login-page-content {
+  padding: 20px;
+  background-color: #f9f9f9;
+  border: 1px solid #bcc;
+  width: 280px;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  font-family: Arial, sans-serif;
+}
+
+@media screen and (min-width: 768px) {
+  .login-page-content {
+    width: 350px;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .login-page-content {
+    width: 400px;
+  }
+}
+
+.login-page-heading {
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.login-form-container {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+
+.login-label-input-container {
+  margin-bottom: 15px;
+}
+
+.login-label-element {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.8;
+}
+
+.login-input-element {
+  height: 30px;
+  width: 100%;
+  border: 1px solid #bcc;
+  border-radius: 4px;
+  padding-left: 8px;
+}
+
+.checkbox-label-container {
+  display: flex;
+  align-items: center;
+  margin-top: 5px;
+}
+
+.label-checkbox {
+  font-size: 12px;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+}
+
+.login-button {
+  background-color: #4CAF50;
+  color: #ffffff;
+  height: 35px;
+  width: 50%;
+  padding: 10px;
+  margin-top: 15px;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}

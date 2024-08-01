@@ -1,0 +1,230 @@
+.signup-page-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #e0ebef;
+    font-family: Arial, sans-serif;
+}
+
+.signup-page-content {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+}
+
+@media screen and (min-width: 768px) {
+    .signup-page-content {
+        flex-direction: row;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .signup-page-content {
+        flex-direction: row;
+        width: 80%;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .signup-page-content {
+        flex-direction: row;
+        width: 70%;
+    }
+}
+
+.signup-image {
+    width: 100%;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    margin-top: 20px;
+}
+
+@media screen and (min-width: 476px) {
+    .signup-image {
+        height: 400px;
+    }
+}
+
+@media screen and (min-width: 576px) {
+    .signup-image {
+        height: 550px;
+    }
+}
+ 
+@media screen and (min-width: 768px) {
+    .signup-image {
+        width: 55%;
+        border-top-right-radius: 0px;
+        border-bottom-left-radius: 8px;
+        margin-top: 0px;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .signup-image {
+        width: 60%;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .signup-image {
+        width: 62%;
+    }
+}
+
+.form-container {
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 16px;
+    padding-bottom: 0;
+    margin-bottom: 20px;
+}
+
+@media screen and (min-width: 768px) {
+    .form-container {
+        width: 45%;
+        margin-bottom: auto;
+        border-top-right-radius: 8px;
+        border-bottom-right-radius: 8px;
+    }
+}
+
+.icon-logo {
+    width: 20px;
+    height: 25px;
+}
+
+.signup-heading {
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 0;
+}
+
+.signup-context {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 0.8;
+    cursor: pointer;
+}
+
+.signin-text {
+    color: #0a57fce0;
+}
+
+.label-input-container {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    width: 100%;
+}
+
+.label-element {
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+.input-element {
+    font-size: 16px;
+    border: 2px solid #bcbcbc;
+    border-radius: 4px;
+    height: 25px;
+    width: 90%;
+    padding: 5px 10px;
+    line-height: 1.4;
+    outline: none;
+}
+
+.input-element-password {
+    display: flex;
+    align-items: center;
+    border: 2px solid #bcbcbc;
+    border-radius: 4px;
+    padding: 5px 10px;
+    width: 90%;
+    line-height: 1.4;
+}
+
+.password-element {
+    font-size: 16px;
+    height: 22px;
+    width: 80%;
+    padding: 2px 0px 2px 0px;
+    border: none;
+    outline: none;
+    margin: 0px 4px;
+}
+
+@media screen and (max-width: 576px) {
+    .password-element {
+        width: 85%;
+    }
+}
+
+@media screen and (min-width: 576px) {
+    .password-element {
+        width: 94%;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .password-element {
+        width: 90%;
+    }
+}
+
+.checkbox-and-agree-statement {
+    display: flex;
+    align-items: center;
+}
+
+.agree-statement {
+    font-size: 14px;
+    font-weight: 500;
+    padding-left: 5px;
+    line-height: 1.4;
+}
+
+.agree-span {
+    color: #2323f9;
+}
+
+.create-account-button {
+    height: 40px;
+    width: 94%;
+    background-color: #2323f9;
+    color: #ffffff;
+    border: none;
+    border-radius: 20px;
+    outline: none;
+    cursor: pointer;
+    margin-bottom: 36px;
+}
+
+@media screen and (min-width: 900px) {
+    .create-account-button {
+        margin-bottom: 56px;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .create-account-button {
+        margin-bottom: 36px;
+    }
+}
+
+@media screen and (min-width: 1080px) {
+    .create-account-button {
+        margin-top: 20px;
+        margin-bottom: 35px;
+    }
+}
+
+.error-text {
+    font-size: 14px;
+    color: red;
+    padding: 0;
+    margin: 0;
+}

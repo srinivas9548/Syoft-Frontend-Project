@@ -1,5 +1,5 @@
 ### Published Link
-https://syoft-frontend-srinivas-project.vercel.app/
+https://syoft-frontend-srinivas-project.vercel.app
 
 # Syoft Frontend Assignment
 

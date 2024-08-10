@@ -9,7 +9,8 @@ class LoginPage extends Component {
         user_email: '',
         user_password: '',
         showPassword: false,
-        redirectToDashboard: false
+        redirectToDashboard: false,
+        redirectToSignUp: false
     }
 
     onSubmitLoginForm = async (event) => {
@@ -58,17 +59,26 @@ class LoginPage extends Component {
         }))
     }
 
+    onClickSignUp = () => {
+        this.setState({redirectToSignUp: true})
+    }
+
     render() {
-        const { showPassword, user_email, user_password, redirectToDashboard } = this.state
+        const { showPassword, user_email, user_password, redirectToDashboard, redirectToSignUp } = this.state
 
         if (redirectToDashboard) {
             return <Navigate to="/dashboard" />
         }
 
+        if (redirectToSignUp) {
+            return <Navigate to="/signup" />
+        }
+
         return (
             <div className="login-page-container">
                 <div className='login-page-content'>
-                    <h1 className='login-page-heading'>Log In</h1>
+                    <h1 className='login-page-heading'>Login</h1>
+                    <p className='login-message'>You don't have an account? <span className='span-text' onClick={this.onClickSignUp}>sign up</span></p>
                     <form className='login-form-container' onSubmit={this.onSubmitLoginForm}>
                         <div className='login-label-input-container'>
                             <label htmlFor="userEmail" className='login-label-element'>User Email</label>

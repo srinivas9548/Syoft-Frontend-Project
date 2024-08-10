@@ -1,3 +1,6 @@
+### Published Link
+https://syoft-frontend-project.vercel.app/
+
 # Syoft Frontend Assignment
 
 ### Task Overview

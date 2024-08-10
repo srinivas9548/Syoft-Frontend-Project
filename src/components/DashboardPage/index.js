@@ -75,7 +75,7 @@ class DashboardPage extends Component {
                         <li>Technologies</li>
                         <li>Blogs</li>
                         <li>Careers</li>
-                        <li onClick={this.handleLogout}>Logout</li>
+                        <li onClick={this.onClickLogout}>Logout</li>
                     </ul>
                 </div>
                 <div className='dashboard-main-container'>
